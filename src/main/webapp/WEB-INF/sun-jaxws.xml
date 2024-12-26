@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+    <endpoint name="BinaryToDecimal" implementation="org.sas50.convertorwebservice.BinaryToDecimalConvertorImpl" url-pattern="/binary-decimal"/>
+    <endpoint name="DecimalToBinary" implementation="org.sas50.convertorwebservice.DecimalToBinaryConvertorImpl" url-pattern="/decimal-binary"/>
+</endpoints>
